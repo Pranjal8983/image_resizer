@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "image_bucket" {
-  bucket = "my-image-upload-bucket-123456"
+  bucket        = "imagePranjalresizer170525"
   force_destroy = true
 }
 
